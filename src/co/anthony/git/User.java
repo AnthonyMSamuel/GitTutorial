@@ -2,7 +2,14 @@ package co.anthony.git;
 
 public class User {
 	private int id;
-	private String name;
+	private String name; 
+	private String department;
+	public String getDepartment() {
+		return department;
+	}
+	public void setDepartment(String department) {
+		this.department = department;
+	}
 	public int getId() {
 		return id;
 	}

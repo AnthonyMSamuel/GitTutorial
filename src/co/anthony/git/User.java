@@ -3,6 +3,8 @@ package co.anthony.git;
 public class User {
 	private int id;
 	private String name;
+	public int age;
+	
 	public int getId() {
 		return id;
 	}
@@ -15,6 +17,8 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	
 	
 	
 

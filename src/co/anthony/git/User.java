@@ -2,14 +2,20 @@ package co.anthony.git;
 
 public class User {
 	private int id;
+
 	private String name; 
 	private String department;
+	public int age;
+	
 	public String getDepartment() {
 		return department;
 	}
 	public void setDepartment(String department) {
 		this.department = department;
 	}
+
+	
+
 	public int getId() {
 		return id;
 	}
@@ -22,6 +28,8 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	
 	
 	
 
